@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qiu.photo_videotest.photo.MainActivity">
+
+    <Button
+        android:text="下载图片"
+        android:id="@+id/btn_downloadPic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_photo_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_add_pic1"
+                android:src="@drawable/add_photo_vedio"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="点击拍照"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/iv_add_pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_add_pic2"
+                android:src="@drawable/add_photo_vedio"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="点击拍照"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/iv_add_pic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_add_pic3"
+                android:src="@drawable/add_photo_vedio"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="点击拍照"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/iv_add_pic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_add_video"
+                android:src="@drawable/add_photo_vedio"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="点击拍摄"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/iv_add_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_show_photo_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/load_fail"
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_show_pic1"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/load_fail"
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_show_pic2"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/load_fail"
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_show_pic3"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/load_fail"
+                android:layout_centerInParent="true"
+                android:id="@+id/iv_show_video"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

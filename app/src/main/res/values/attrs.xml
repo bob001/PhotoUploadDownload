@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TakePhotoView">
+        <attr name="shapeColor" format="color" />
+        <attr name="isDisplay" format="boolean"/>
+    </declare-styleable>
+</resources>
